@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TapPhrase - サポート</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.7;
+      color: #333;
+      background: #fff;
+      padding: 40px 20px;
+      max-width: 720px;
+      margin: 0 auto;
+    }
+    h1 { font-size: 28px; margin-bottom: 8px; }
+    .subtitle { color: #666; font-size: 16px; margin-bottom: 40px; }
+    h2 { font-size: 20px; margin-top: 36px; margin-bottom: 12px; border-bottom: 1px solid #eee; padding-bottom: 8px; }
+    p { margin-bottom: 16px; }
+    ul { margin-bottom: 16px; padding-left: 24px; }
+    li { margin-bottom: 8px; }
+    a { color: #007aff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid #eee; color: #999; font-size: 14px; }
+  </style>
+</head>
+<body>
+
+  <h1>TapPhrase</h1>
+  <p class="subtitle">カスタムキーボード定型文アプリ</p>
+
+  <h2>アプリについて</h2>
+  <p>TapPhrase は、よく使う定型文を登録し、どのアプリからでもカスタムキーボードからワンタップで入力できるアプリです。</p>
+  <ul>
+    <li>カテゴリで定型文を整理</li>
+    <li>カスタム変数で名前や日付を自動置換</li>
+    <li>データは端末内のみに保存。外部サーバーへの送信はありません</li>
+  </ul>
+
+  <h2>動作環境</h2>
+  <p>iOS 26.0 以降</p>
+
+  <h2>キーボードの設定方法</h2>
+  <ol style="margin-bottom: 16px; padding-left: 24px;">
+    <li>「設定」アプリを開く</li>
+    <li>「一般」→「キーボード」→「キーボード」をタップ</li>
+    <li>「新しいキーボードを追加」から「TapPhrase」を選択</li>
+  </ol>
+
+  <h2>よくある質問</h2>
+
+  <h3 style="font-size: 16px; margin-top: 20px; margin-bottom: 8px;">Q. データのバックアップはできますか？</h3>
+  <p>はい。設定画面の「バックアップ」セクションから JSON ファイルとしてエクスポート・インポートできます。</p>
+
+  <h3 style="font-size: 16px; margin-top: 20px; margin-bottom: 8px;">Q. データは外部に送信されますか？</h3>
+  <p>いいえ。登録した定型文やカテゴリはすべて端末内にのみ保存され、外部サーバーに送信されることはありません。</p>
+
+  <h3 style="font-size: 16px; margin-top: 20px; margin-bottom: 8px;">Q. キーボードが表示されません</h3>
+  <p>上記の手順でキーボードを有効にしても表示されない場合は、端末を再起動してください。</p>
+
+  <h3 style="font-size: 16px; margin-top: 20px; margin-bottom: 8px;">Q. 登録した定型文がキーボードに反映されません</h3>
+  <p>アプリを一度閉じて再度開くか、キーボードを一度切り替え直してください。それでも反映されない場合は、端末の再起動をお試しください。</p>
+
+  <h3 style="font-size: 16px; margin-top: 20px; margin-bottom: 8px;">Q. フルアクセスを求められますか？</h3>
+  <p>いいえ。本アプリはキーボードのフルアクセス権限を要求しません。入力内容の記録や外部への送信は一切行いません。</p>
+
+  <h3 style="font-size: 16px; margin-top: 20px; margin-bottom: 8px;">Q. カスタム変数の使い方は？</h3>
+  <p>定型文の本文に <code>{{name}}</code> や <code>{{date}}</code> などの変数を埋め込むと、入力時に自動で置換されます。カスタム変数は設定画面から追加・編集できます。</p>
+
+  <h3 style="font-size: 16px; margin-top: 20px; margin-bottom: 8px;">Q. アプリを削除するとデータはどうなりますか？</h3>
+  <p>アプリを削除すると、登録した定型文やカテゴリなどのデータはすべて消去されます。事前にバックアップ機能でデータをエクスポートしておくことをおすすめします。</p>
+
+  <h3 style="font-size: 16px; margin-top: 20px; margin-bottom: 8px;">Q. 特定のアプリでキーボードが使えません</h3>
+  <p>パスワード入力欄など、セキュリティ上の理由でサードパーティ製キーボードが使用できない場合があります。これはiOSの仕様による制限です。</p>
+
+  <h3 style="font-size: 16px; margin-top: 20px; margin-bottom: 8px;">Q. 返金はできますか？</h3>
+  <p>購入・返金はApple（App Store）を通じて処理されます。開発者による個別返金は行っておりません。</p>
+  <ul>
+    <li><a href="https://support.apple.com/ja-jp/HT204084">返金の手続き方法</a></li>
+    <li><a href="https://reportaproblem.apple.com/">返金の申請</a></li>
+  </ul>
+
+  <h2>お問い合わせ</h2>
+  <p>ご質問・不具合の報告は下記までご連絡ください。通常3〜7営業日以内にご返信いたします。内容や状況によりお時間をいただく場合があります。</p>
+  <p><a href="mailto:tapphrase@seiransoft.com">tapphrase@seiransoft.com</a></p>
+
+  <h2>リンク</h2>
+  <ul>
+    <li><a href="./privacy.html">プライバシーポリシー</a></li>
+    <li><a href="./terms.html">利用規約</a></li>
+  </ul>
+
+  <hr style="margin-top: 48px; border: none; border-top: 2px solid #ddd;">
+
+  <div lang="en" style="margin-top: 48px;">
+    <h1>TapPhrase</h1>
+    <p class="subtitle">Custom Keyboard Phrase App</p>
+
+    <h2>About</h2>
+    <p>TapPhrase lets you register frequently used phrases and enter them with one tap from a custom keyboard in any app.</p>
+    <ul>
+      <li>Organize phrases by category</li>
+      <li>Auto-replace names and dates with custom variables</li>
+      <li>All data stays on your device. Nothing is sent to external servers</li>
+    </ul>
+
+    <h2>Requirements</h2>
+    <p>iOS 26.0 or later</p>
+
+    <h2>Keyboard Setup</h2>
+    <ol style="margin-bottom: 16px; padding-left: 24px;">
+      <li>Open the Settings app</li>
+      <li>Tap "General" → "Keyboard" → "Keyboards"</li>
+      <li>Tap "Add New Keyboard" and select "TapPhrase"</li>
+    </ol>
+
+    <h2>FAQ</h2>
+
+    <h3 style="font-size: 16px; margin-top: 20px; margin-bottom: 8px;">Q. Can I back up my data?</h3>
+    <p>Yes. You can export and import data as a JSON file from the "Backup" section in Settings.</p>
+
+    <h3 style="font-size: 16px; margin-top: 20px; margin-bottom: 8px;">Q. Is my data sent externally?</h3>
+    <p>No. All phrases and categories are stored only on your device and are never sent to external servers.</p>
+
+    <h3 style="font-size: 16px; margin-top: 20px; margin-bottom: 8px;">Q. The keyboard doesn't appear</h3>
+    <p>If the keyboard does not appear after following the setup steps above, please restart your device.</p>
+
+    <h3 style="font-size: 16px; margin-top: 20px; margin-bottom: 8px;">Q. My registered phrases don't appear on the keyboard</h3>
+    <p>Try closing and reopening the app, or switching to another keyboard and back. If the issue persists, restart your device.</p>
+
+    <h3 style="font-size: 16px; margin-top: 20px; margin-bottom: 8px;">Q. Does the app require Full Access?</h3>
+    <p>No. This app does not request Full Access permission for the keyboard. It does not record or transmit any input.</p>
+
+    <h3 style="font-size: 16px; margin-top: 20px; margin-bottom: 8px;">Q. How do I use custom variables?</h3>
+    <p>Insert variables like <code>{{name}}</code> or <code>{{date}}</code> into your phrase text, and they will be automatically replaced when entered. You can add and edit custom variables in Settings.</p>
+
+    <h3 style="font-size: 16px; margin-top: 20px; margin-bottom: 8px;">Q. What happens to my data if I delete the app?</h3>
+    <p>All data, including phrases and categories, will be permanently deleted. We recommend exporting a backup before deleting the app.</p>
+
+    <h3 style="font-size: 16px; margin-top: 20px; margin-bottom: 8px;">Q. The keyboard doesn't work in certain apps</h3>
+    <p>Some apps restrict third-party keyboards in password fields and other secure input areas. This is a limitation of iOS, not the app.</p>
+
+    <h3 style="font-size: 16px; margin-top: 20px; margin-bottom: 8px;">Q. Can I get a refund?</h3>
+    <p>Purchases and refunds are processed through Apple (App Store). The developer does not offer individual refunds.</p>
+    <ul>
+      <li><a href="https://support.apple.com/en-us/HT204084">How to request a refund</a></li>
+      <li><a href="https://reportaproblem.apple.com/">Request a refund</a></li>
+    </ul>
+
+    <h2>Contact</h2>
+    <p>For questions or bug reports, please contact us using the email below. We typically respond within 3–7 business days. Response times may vary depending on the nature of the inquiry.</p>
+    <p><a href="mailto:tapphrase@seiransoft.com">tapphrase@seiransoft.com</a></p>
+
+    <h2>Links</h2>
+    <ul>
+      <li><a href="./privacy.html">Privacy Policy</a></li>
+      <li><a href="./terms.html">Terms of Use</a></li>
+    </ul>
+  </div>
+
+  <div class="footer">
+    <p>&copy; 2026 SEIRAN SOFT LLC. All rights reserved.</p>
+  </div>
+
+</body>
+</html>
