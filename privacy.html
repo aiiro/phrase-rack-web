@@ -26,11 +26,19 @@
     .summary { background: #f8f8f8; border-radius: 8px; padding: 20px; margin-bottom: 32px; }
     .summary ul { margin-bottom: 0; }
     .footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid #eee; color: #999; font-size: 14px; }
+    .lang-nav { padding-bottom: 16px; margin-bottom: 24px; border-bottom: 1px solid #eee; font-size: 14px; text-align: right; }
+    .lang-nav a { margin: 0 4px; }
+    .lang-note { margin-top: 8px; margin-bottom: 0; color: #666; font-size: 13px; }
   </style>
 </head>
 <body>
 
-  <h1>プライバシーポリシー</h1>
+  <nav class="lang-nav">
+    <a href="#ja">日本語</a> / <a href="#en">English</a>
+    <p class="lang-note">このページは日本語と英語を併記しています / This page is available in both Japanese and English</p>
+  </nav>
+
+  <h1 id="ja">プライバシーポリシー</h1>
   <p class="subtitle">PhraseRack</p>
 
   <div class="summary">
@@ -76,7 +84,11 @@
 
   <hr style="margin-top: 48px; border: none; border-top: 2px solid #ddd;">
 
-  <div lang="en" style="margin-top: 48px;">
+  <div id="en" lang="en" style="margin-top: 48px;">
+    <nav class="lang-nav">
+      <a href="#ja">日本語</a> / <a href="#en">English</a>
+    </nav>
+
     <h1>Privacy Policy</h1>
     <p class="subtitle">PhraseRack</p>
 
